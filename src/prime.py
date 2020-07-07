@@ -22,6 +22,7 @@ def isPrime():
                     if numbers[j] != 0:
                         currPrime = numbers[j]
                         break
+                # break the loop if no new prime number is left
                 if i != 0 and currPrime == numbers[prevPrimeIndex]:
                     break
                 else:
